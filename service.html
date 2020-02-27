@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>East Coast Hoteliers Training</title>
+<link rel="Stylesheet" href="Stylesheet.css">
+</head>
+<body>
+
+  <section class="main">
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle"/>
+    <div class="contain">
+        <a href="Index.html">Home </a>
+        <a href="Training.html">Training</a>
+        <a href="service.html">Services</a>
+        <a href="About.html">About</a>
+        <a href="Project.html">Projects</a>
+        <a href="contact.html">Contact me</a>
+      </div>
+    </section>
+
+    <main>
+      <div class="Services">
+        <h1>Services we offer</h1><br>
+        <ul>
+          <li>Train the Trainer</li>
+          <li>WSET</li>
+          <li>Language of 5* service</li>
+        </ul><br>
+      </div>
+
+    <div class="TrainTheTrainer">
+      <img src="TrainTheTrainer.jpg" alt="Brainstorming">
+      <h2>Train the Trainer</h2><br>
+        <p>Consistency is key in creating guests for life. Training is key for displaying the standards expected to your team. Being able to deliver your message across to your team is integral to being a top performing establishment<span id="dots">...</span><span id="more">
+        Train the Trainer is a full day course that gives you the tools to be able to get the message across to your team. We focus on this in two ways. Identifying training needs and delivery design.</span></p><br>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+
+        <div class="WSET">
+        <h2>WSET</h2><br>
+        <img src="WSET.jpg" alt="Wine tasting">
+          <p>Profit margins on wine alone can be between 60-70% per glass. Profit margin on food typically falls somewhere between 0-15% in a restaurant. The Food and Beverage industry is notoriously competitive with 60% of new restaurants failing every year. A new restaurant to be successful an emphasis should really be put on the extras that a restaurant offers in order to keep a business profitable. <br>
+            WSET gives a great foundation in your wine + spirit knowledge. This can really come in handy when it comes to food pairings and can really wow your guests.</p><br>
+          </div>
+
+        <div class="LanguageOfFiveService">
+            <h2>Language of 5* service</h2><br>
+            <img src="LanguageOfFiveStarService.jpg" alt="Interaction">
+              <p>How do you handle a complaint? How do you deal with a difficult customer? What makes the difference between having a good interaction with a guest and a truely memorable experience? These are the type of questions that we answer in "The language of 5* service". <br>
+                This full day intensive course takes your team through some of the questions that you as a manager may find difficult to put into words. Tailored to each organisations business we will draw from out own personal experience and convey that in a way that aligns with your companys brand standards. We want to create a dialogue your team to wow your guests along as some non verbal ques that you would like them to pick up on.
+              </p><br>
+            </div>
+
+            <div class = "Testimonials">
+            <div class="Quote-Sliders fade">
+              <h3>"Kevin and his team really knew how to command the room. Our staff were so engaged and constantly laughing. Have seen amazing engagement since the training took place."</h3><br>
+            </div>
+
+            <div class="Quote-Sliders fade">
+              <h3>"After sitting the WSET level 1 course, I felt much more comfortable upselling wine and making recommendations to our guest. It makes all the difference knowing the difference between a Chablis and a Chardonnay."</h3><br>
+            </div>
+
+            <div class="Quote-Sliders fade">
+              <h3>"Handling complains used to make me nervours. I was always nervous about saying the wrong time. Doing the role plays and talking about how to handle difficult customers. I feel more comfortable about what sort of language to use in order to win the customer back." </h3><br>
+            </div>
+			</div>
+			</main>
+      <script>
+      var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("Quote-Sliders");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4000);
+  }
+
+      </script>
+  <script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+
+      <div id="path">
+   <div id="brick"></div>
+ </div>
+
+
+
+
+              <footer>
+                <div class="clear">
+                <div class="fbox2">
+                  <h2>Contact Us</h2>
+                    <ul class="style1">
+                    <li>Email: EHG@hotelier.ie</li>
+                    <li>Phone: 01 435 6022</li>
+                    <li>Address</li>
+                    <li>The Reflector</li>
+                    <li>10 Hanover quay</li>
+                    <li>Dublin 2</li>
+                  </ul>
+                  </div>
+
+
+
+                <div class="fbox3">
+                  <h2>Quick Links</h2>
+                    <ul class="style1">
+                    <li><a href="Training.html">Trainings</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                  </div>
+                </div>
+
+              copyright Noun,Fintan, Shler & Amy designs
+                <div class="icon">
+                  <img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/facebook-icon_24x24.png" alt="Facebook Icons">
+                  <img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/linkedin-icon_24x24.png" alt="LinkedIn icon">
+              </div>
+              </footer>
+  </body>
+</html>
